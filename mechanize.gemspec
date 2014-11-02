@@ -1,10 +1,9 @@
-ib = File.expand_path('../lib', __FILE__)
+lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'mechanize/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "mechanize"
-  spec.version       = Mechanize::VERSION
+  spec.version       = "2.7.2"
   spec.homepage      = "http://mechanize.rubyforge.org"
   spec.summary       = %q{The Mechanize library is used for automating interaction with websites}
   spec.description   =
